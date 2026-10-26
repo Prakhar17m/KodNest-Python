@@ -1,3 +1,4 @@
+
 # 1. how can you make a local variable into global
 c =30
 def add():
@@ -11,7 +12,7 @@ print(a)
 print(c)
 
 
-#2. what happens when we use loca and global variable with same name
+#2. what happens when we use local and global variable with same name
 x =100
 def fun():
     x =50 
@@ -27,7 +28,6 @@ def fun():
     x =20
 fun()      # this will show us the unbound error
 print(x)
-
 
 
 
